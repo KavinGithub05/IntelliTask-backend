@@ -1,0 +1,237 @@
+{
+  "tasks": [
+    {
+      "title": "Create Dashboard UI",
+      "description": "Build the layout for dashboard, sidebar, and header components.",
+      "dueDate": "2025-11-12",
+      "priority": "high",
+      "status": "in-progress",
+      "id": 1764476955993,
+      "history": [
+        "Task \"Create Dashboard UI\" created on 11/30/2025, 9:59:15 AM",
+        "Task \"Create Dashboard UI\" updated on 11/30/2025, 9:59:35 AM: "
+      ],
+      "ownerId": 1764476904483
+    },
+    {
+      "title": "API Integration for Task Form",
+      "description": "Connect backend API to create, update, and delete tasks.",
+      "dueDate": "2025-11-14",
+      "priority": "high",
+      "status": "to-do",
+      "id": 1764477001001,
+      "history": [
+        "Task \"API Integration for Task Form\" created on 11/30/2025, 10:02:00 AM"
+      ],
+      "ownerId": 1764476904483
+    },
+    {
+      "title": "Fix Mobile Navigation Bug",
+      "description": "Resolve menu collapse issues on mobile layout.",
+      "dueDate": "2025-11-15",
+      "priority": "medium",
+      "status": "in-progress",
+      "id": 1764477002002,
+      "history": [
+        "Task \"Fix Mobile Navigation Bug\" created on 11/30/2025, 10:02:05 AM"
+      ],
+      "ownerId": 1764476904483
+    },
+    {
+      "title": "Write Unit Tests for Login Page",
+      "description": "Add Jest tests for login flow, validation, and redirects.",
+      "dueDate": "2025-11-18",
+      "priority": "medium",
+      "status": "to-do",
+      "id": 1764477003003,
+      "history": [
+        "Task \"Write Unit Tests for Login Page\" created on 11/30/2025, 10:02:10 AM"
+      ],
+      "ownerId": 1764476904483
+    },
+    {
+      "title": "Update Project Documentation",
+      "description": "Add installation steps and feature explanation.",
+      "dueDate": "2025-11-20",
+      "priority": "low",
+      "status": "completed",
+      "id": 1764477004004,
+      "history": [
+        "Task \"Update Project Documentation\" created on 11/30/2025, 10:02:15 AM",
+        "Task \"Update Project Documentation\" updated on 11/30/2025, 10:05:00 AM: marked as completed"
+      ],
+      "ownerId": 1764476904483
+    },
+    {
+      "title": "Optimize Image Loading",
+      "description": "Compress PNG/JPEG assets, implement lazy loading.",
+      "dueDate": "2025-11-22",
+      "priority": "low",
+      "status": "to-do",
+      "id": 1764477005005,
+      "history": [
+        "Task \"Optimize Image Loading\" created on 11/30/2025, 10:02:20 AM"
+      ],
+      "ownerId": 1764476904483
+    },
+    {
+      "title": "Prepare Weekly Status Report",
+      "description": "Summarize completed tasks and next sprint plan.",
+      "dueDate": "2025-11-23",
+      "priority": "medium",
+      "status": "to-do",
+      "id": 1764477006006,
+      "history": [
+        "Task \"Prepare Weekly Status Report\" created on 11/30/2025, 10:02:25 AM"
+      ],
+      "ownerId": 1764476904483
+    },
+    {
+      "title": "Review Pull Requests",
+      "description": "Check incoming PRs, test changes, and merge if approved.",
+      "dueDate": "2025-11-24",
+      "priority": "high",
+      "status": "in-review",
+      "id": 1764477007007,
+      "history": [
+        "Task \"Review Pull Requests\" created on 11/30/2025, 10:02:30 AM"
+      ],
+      "ownerId": 1764476904483
+    },
+    {
+      "title": "Improve Accessibility (A11y)",
+      "description": "Fix contrast issues, labels and keyboard navigation support.",
+      "dueDate": "2025-11-26",
+      "priority": "medium",
+      "status": "in-progress",
+      "id": 1764477008008,
+      "history": [
+        "Task \"Improve Accessibility (A11y)\" created on 11/30/2025, 10:02:35 AM"
+      ],
+      "ownerId": 1764476904483
+    },
+    {
+      "title": "Database Backup",
+      "description": "Backup production DB and store securely in cloud.",
+      "dueDate": "2025-11-28",
+      "priority": "high",
+      "status": "completed",
+      "id": 1764477009009,
+      "history": [
+        "Task \"Database Backup\" created on 11/30/2025, 10:02:40 AM",
+        "Task \"Database Backup\" updated on 11/30/2025, 10:04:00 AM: marked as completed"
+      ],
+      "ownerId": 1764476904483
+    },
+    {
+      "title": "Refactor Sidebar Component",
+      "description": " ",
+      "dueDate": "2025-11-27",
+      "priority": "low",
+      "status": "to-do",
+      "id": 1764477010010,
+      "history": [
+        "Task \"Refactor Sidebar Component\" created on 11/30/2025, 10:02:45 AM"
+      ],
+      "ownerId": 1764476904483
+    },
+    {
+      "title": "hhi",
+      "description": "ndbskjf",
+      "dueDate": "2025-11-18",
+      "priority": "low",
+      "status": "to-do",
+      "id": 1764504019997,
+      "history": [
+        "Task \"hhi\" created on 11/30/2025, 5:30:19 PM"
+      ],
+      "ownerId": 1764476904483
+    },
+    {
+      "title": "jsdbfj",
+      "description": "jbdsjf",
+      "dueDate": "2025-11-28",
+      "priority": "low",
+      "status": "in-progress",
+      "id": 1764504750279,
+      "history": [
+        "Task \"jsdbfj\" created on 11/30/2025, 5:42:30 PM"
+      ],
+      "ownerId": 1764476904483
+    },
+    {
+      "title": "jjdf",
+      "description": "sdfcxcx",
+      "dueDate": "2025-11-05",
+      "priority": "low",
+      "status": "to-do",
+      "id": 1764505878289,
+      "history": [
+        "Task \"jjdf\" created on 11/30/2025, 6:01:18 PM"
+      ],
+      "ownerId": 1764505858646
+    },
+    {
+      "title": "rerdf",
+      "description": "cxv",
+      "dueDate": "2025-11-27",
+      "priority": "low",
+      "status": "to-do",
+      "id": 1764506086423,
+      "history": [
+        "Task \"rerdf\" created on 11/30/2025, 6:04:46 PM"
+      ],
+      "ownerId": 1764505858646
+    },
+    {
+      "title": "ddd",
+      "description": "dgcxbcvb",
+      "dueDate": "2025-11-11",
+      "priority": "low",
+      "status": "to-do",
+      "id": 1764506446992,
+      "history": [
+        "Task \"ddd\" created on 11/30/2025, 6:10:46 PM"
+      ],
+      "ownerId": 1764505858646
+    },
+    {
+      "title": "bdfh",
+      "description": "hdbbfnz cv",
+      "dueDate": "2025-11-19",
+      "priority": "low",
+      "status": "to-do",
+      "id": 1764506590274,
+      "history": [
+        "Task \"bdfh\" created on 11/30/2025, 6:13:10 PM"
+      ],
+      "ownerId": 1764505858646
+    },
+    {
+      "title": "hfxg",
+      "description": "zhxbfjzcx",
+      "dueDate": "2025-12-04",
+      "priority": "low",
+      "status": "to-do",
+      "id": 1764506813443,
+      "history": [
+        "Task \"hfxg\" created on 11/30/2025, 6:16:53 PM"
+      ],
+      "ownerId": 1764505858646
+    }
+  ],
+  "users": [
+    {
+      "id": 1764476904483,
+      "username": "Admin",
+      "email": "admin@gamil.com",
+      "passwordHash": "$2a$10$b50/RBSfb1vM4KuctUbFKOMq4uMa1UeIeD.h1RTL4v9SBqPClAZhm"
+    },
+    {
+      "id": 1764505858646,
+      "username": "123",
+      "email": "user@gmail.com",
+      "passwordHash": "$2a$10$UlghudPJD6QQHgjzjuuUZ.nwAx1JeVka6vH/VdHFzL1CMZ6H/Svq2"
+    }
+  ]
+}
