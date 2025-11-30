@@ -231,22 +231,36 @@ npm test
 
 ## 🚀 Deployment
 
-### Render (Recommended)
+### Vercel (Recommended for Serverless)
 
+1. Connect GitHub repository to Vercel
+2. Vercel will automatically detect `vercel.json` configuration
+3. Add environment variables in Vercel dashboard:
+   - `MONGO_URI` - Your MongoDB connection string
+   - `JWT_SECRET` - Strong random key for JWT signing
+   - `JWT_EXPIRES_IN` - Token expiration (default: 24h)
+   - `OPENAI_API_KEY` - Your OpenAI API key (optional)
+   - `NODE_ENV` - Set to `production`
+4. Deploy automatically on push to master
+
+**Vercel Configuration**: The `vercel.json` file is pre-configured for:
+- Node.js serverless functions
+- All routes directed to Express server
+- 10-second function timeout for API operations
+
+### Alternative Platforms
+
+#### Render
 1. Connect GitHub repository
 2. Create Web Service
 3. Build command: `npm install`
 4. Start command: `npm run start:backend`
-5. Add environment variables:
-   - `MONGO_URI`
-   - `JWT_SECRET`
-   - `OPENAI_API_KEY` (optional)
+5. Add environment variables as above
 
-### Other Platforms
-
-- **Railway**: Similar to Render
-- **Heroku**: Use buildpacks for Node.js
-- **AWS EC2**: Manual server setup
+#### Railway/Heroku
+- Similar setup to Render
+- Use Node.js buildpacks
+- Configure environment variables in dashboard
 
 ## 📋 Scripts
 

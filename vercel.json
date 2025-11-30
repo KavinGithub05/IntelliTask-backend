@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "backend/package.json",
+      "use": "@vercel/node",
+      "config": {
+        "buildCommand": "cd backend && npm run build"
+      }
+    },
+    {
+      "src": "frontend/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "frontend/dist/task-manager"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/backend/dist/server.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/frontend/dist/task-manager/$1"
+    }
+  ],
+  "functions": {
+    "backend/dist/server.js": {
+      "runtime": "nodejs18.x",
+      "maxDuration": 10
+    }
+  },
+  "outputDirectory": "frontend/dist/task-manager"
+}

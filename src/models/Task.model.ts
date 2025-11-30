@@ -4,7 +4,6 @@ export type Priority = 'low' | 'medium' | 'high';
 export type Status = 'to-do' | 'in-progress' | 'completed';
 
 export interface ITask extends Document {
-  _id?: string;
   title: string;
   description: string;
   dueDate?: Date;

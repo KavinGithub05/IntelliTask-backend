@@ -1,13 +1,13 @@
 import { Request, Response } from 'express';
 import bcrypt from 'bcryptjs';
-import jwt from 'jsonwebtoken';
+import jwt, { Secret, SignOptions } from 'jsonwebtoken';
 import { User } from '../models/User.model';
 import dotenv from 'dotenv';
 
 dotenv.config();
 
-const JWT_SECRET = process.env.JWT_SECRET || 'dev_secret';
-const JWT_EXPIRES_IN = process.env.JWT_EXPIRES_IN || '7d';
+const JWT_SECRET: Secret = process.env.JWT_SECRET || 'dev_secret';
+const JWT_EXPIRES_IN: string = process.env.JWT_EXPIRES_IN || '7d';
 const SALT_ROUNDS = 10;
 
 export const register = async (req: Request, res: Response) => {
@@ -33,9 +33,9 @@ export const register = async (req: Request, res: Response) => {
     });
 
     const token = jwt.sign(
-      { id: user._id, email: user.email, username: user.username },
+      { id: user._id.toString(), email: user.email, username: user.username },
       JWT_SECRET,
-      { expiresIn: JWT_EXPIRES_IN }
+      { expiresIn: JWT_EXPIRES_IN } as SignOptions
     );
 
     res.status(201).json({
@@ -71,9 +71,9 @@ export const login = async (req: Request, res: Response) => {
     }
 
     const token = jwt.sign(
-      { id: user._id, email: user.email, username: user.username },
+      { id: user._id.toString(), email: user.email, username: user.username },
       JWT_SECRET,
-      { expiresIn: JWT_EXPIRES_IN }
+      { expiresIn: JWT_EXPIRES_IN } as SignOptions
     );
 
     res.json({
