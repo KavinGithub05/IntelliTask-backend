@@ -222,12 +222,6 @@
   ],
   "users": [
     {
-      "id": 1764476904483,
-      "username": "Admin",
-      "email": "admin@gamil.com",
-      "passwordHash": "$2a$10$b50/RBSfb1vM4KuctUbFKOMq4uMa1UeIeD.h1RTL4v9SBqPClAZhm"
-    },
-    {
       "id": 1764505858646,
       "username": "123",
       "email": "user@gmail.com",
