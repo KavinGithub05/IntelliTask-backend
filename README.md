@@ -1,8 +1,32 @@
-# IntelliTask Backend
+# 🚀 IntelliTask Backend
 
-A Node.js/Express API server with TypeScript, MongoDB, and JWT authentication for task management with AI-powered features.
+[![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue.svg)](https://www.typescriptlang.org/)
+[![Express](https://img.shields.io/badge/Express-4.18-lightgrey.svg)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-8.0-47A248.svg)](https://www.mongodb.com/)
+[![JWT](https://img.shields.io/badge/JWT-Auth-000000.svg)](https://jwt.io/)
+[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000.svg)](https://vercel.com)
 
-## 🚀 Features
+> 🔗 **API Base URL**: `https://intellitask-backend.onrender.com/api`
+> 📊 **Health Check**: `https://intellitask-backend.onrender.com/health`
+
+A robust Node.js/Express API server with TypeScript, MongoDB, and JWT authentication for intelligent task management with AI-powered priority suggestions.
+
+## � Table of Contents
+
+- [🚀 Features](#-features)
+- [📁 Project Structure](#-project-structure)
+- [🛠️ Setup Instructions](#️-setup-instructions)
+- [🔧 API Endpoints](#-api-endpoints)
+- [📊 Data Models](#-data-models)
+- [🔒 Security Features](#-security-features)
+- [🤖 AI Integration](#-ai-integration)
+- [🧪 Testing](#-testing)
+- [🚀 Deployment](#-deployment)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+
+## �🚀 Features
 
 - **TypeScript** for type safety and better development experience
 - **Express.js** RESTful API with proper middleware
